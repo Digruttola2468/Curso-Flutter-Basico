@@ -1,5 +1,8 @@
 # Curso Basico de Flutter
 
+usaremos como interfaz de nuestro proyecto es el siguiente link
+[UI7 App - Uplabs](https://www.uplabs.com/posts/ui7-kit)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -180,9 +183,27 @@ Los widgets básicos son el punto de partida con los que puedes comenzar a crear
 
 [Text class - widgets library - Dart API](https://api.flutter.dev/flutter/widgets/Text-class.html)
 
+## Widgets con estado y sin estado
 
+Flutter dipone principalmente de dos tipos de Widgets:
 
+- **Widgets con estado o StatefulWidgets**: Son todos los widgets con los que el usuario de la aplicación puede tener una interacción directa. Por ejemplo: Checkbox, Radio, Slider, Form. Este tipo de widgets por lo general disparan algún evento, acción o comportamiento determinado como respuesta a la interacción con el usuario.
 
+- **Widgets sin estado o StatelessWidgets**: Los widgets de este tipo no reaccionan ante el intento de interacción con el usuario. No tienen asociado una acción o comportamiento particular. Son estáticos en la interfaz. Por ejemplo: Icono, Texto, Contendor con color, entre otros.
 
+Ambos tipos de widgets heredan sus características y comportamientos de una clase principal Widget.
 
+## Análisis de Interfaces de Usuario en Flutter
 
+Analizar las interfaces de usuario para determinar la mejor forma de componer los diferentes grupos de elementos visuales o de interacción que conforman nuestra aplicación es una tarea común entre desarrolladores de aplicaciones móviles. De hecho la propia documentación oficial de Flutter lo recomienda.
+
+El análisis consiste básicamente en identificar o detectar visualmente cuál sería la mejor forma de construir las diferentes secciones de nuestra interfaz, tomando en cuenta los widgets básicos de los cuales disponemos en Flutter. Prever la manera en que pueden ser anidados u organizados los diferentes widgets básicos, incluso determinar qué grupos de widgets pudieran pasar a ser nuevos widgets compuestos nos facilitará mucho el trabajo posterior ya cuando pasemos al código del programa.
+
+Una técnica usada para representar el widget tree resultante del análisis de la interfaz es mediante un diagrama de árbol, en el que cada widget se representa con una símbolo circular en una estructura de dependencias o asociaciones derivadas desplegadas en forma de árbol descendente.
+
+Es recomendable que al momento de analizar el layout de una interfaz ya diseñada es hacer un diagrama de forma de tree
+![]()
+
+[Layout widgets - Flutter](https://docs.flutter.dev/development/ui/widgets/layout)
+
+[UI7 App - Uplabs](https://www.uplabs.com/posts/ui7-kit)
