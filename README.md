@@ -72,37 +72,30 @@ Descárgalo haciendo click aquí https://flutter.io/docs/get-started/install y p
 
 Estarás descargando un archivo flutter_xxx_v1xxx.zip descomprímelo y déjalo disponible en tu carpeta home o en un lugar de tu computadora que no sea vulnerable a ser borrado.
 
-Android Studio
+**Android Studio**:
 Una vez tengas instalado Android Studio, puedes descargarlo de aquí https://developer.android.com/studio/?hl=es-419 , instalaremos el Plugin de Flutter, para esto ve al IDE en la opción de Preferences > Plugins en Mac o en Windows/Linux File > Settings > Plugins.
 
 En la ventana que se abre da click en la parte inferior en el botón Browse repositories. Se sobrepondrá otra nueva ventana ahí escribe Flutter, da click en Install.
 
-Captura de pantalla 2018-12-28 a la(s) 12.31.27.png
-A continuación te solicitará instalar el Plugin de Dart da click en Yes.
-
-Captura de pantalla 2018-12-28 a la(s) 12.33.31.png
-Reinicia el IDE Android Studio y todo listo.
-
-Visual Studio Code
+**Visual Studio Code**:
 Una vez hayas descargado Visual Studio Code https://code.visualstudio.com/download procederemos a instalar el Plugin de Flutter y Dart.
 
 Abre el Editor y dirígete al menú View > Command Palette teclea la palabra install y selecciona: Extensions: Install Extension
 
 Ahora escribe Flutter y da click en install.
 
-Captura de pantalla 2018-12-28 a la(s) 12.34.57.png
 Reinicia el Editor realiza los pasos anteriores y escribe Dart. Instálao, reinicia y listo.
 
 ## Composición de un proyecto en Flutter
 Una vez completado el proceso de inicialización, Android Studio habrá generado el sistema de archivos del proyecto que contendrá básicamente las siguientes carpetas:
 
-- flutter_app/ : carpeta raíz del proyecto, donde además crearemos entre otras cosas las carpetas donde guardaremos nuestros recursos o assets de la aplicación.
+- *flutter_app/* : carpeta raíz del proyecto, donde además crearemos entre otras cosas las carpetas donde guardaremos nuestros recursos o assets de la aplicación.
 
-- android/ : aquí se almacenarán todos los archivos que corresponden a un **proyecto Android**. Es en esta ubicación donde se encontrarán los archivos de configuración y demás recursos que pudiéramos querer retocar o modificar en Android Studio para comportamientos particulares de la app en esta plataforma, como el ***FlutterActivity*** o el ***AndroidManifest***.
+- *android/* : aquí se almacenarán todos los archivos que corresponden a un **proyecto Android**. Es en esta ubicación donde se encontrarán los archivos de configuración y demás recursos que pudiéramos querer retocar o modificar en Android Studio para comportamientos particulares de la app en esta plataforma, como el ***FlutterActivity*** o el ***AndroidManifest***.
 
-- ios/ : similarmente, aquí se almacenarán todos los archivos que corresponden al **sistema operativo iOS**. Es en esta ubicación donde se encontrarán los archivos de configuración y otros que pudiéramos querer retocar o ajustar en **XCode** para comportamientos específicos relacionados con esta plataforma, como el ***FlutterAppDelegate*** o el ***info.plist***, entre otros.
+- *ios/* : similarmente, aquí se almacenarán todos los archivos que corresponden al **sistema operativo iOS**. Es en esta ubicación donde se encontrarán los archivos de configuración y otros que pudiéramos querer retocar o ajustar en **XCode** para comportamientos específicos relacionados con esta plataforma, como el ***FlutterAppDelegate*** o el ***info.plist***, entre otros.
 
-- lib/ : es aquí donde encontramos todos los archivos que corresponden a nuestro proyecto con Dart y donde vive la aplicación Flutter. Todos los archivos que estaremos generando durante el curso se almacenarán en esta carpeta.
+- *lib/* : es aquí donde encontramos todos los archivos que corresponden a nuestro proyecto con Dart y donde vive la aplicación Flutter. Todos los archivos que estaremos generando durante el curso se almacenarán en esta carpeta.
 
 Hay un archivo especial llamado **pubspec.yaml** donde se guardan las configuraciones del proyecto. Este archivo está escrito en el lenguaje **YAML**, que es un formato de serialización de datos legible por humanos inspirado en XML. En este archivo tendremos que declarar todos los recursos externos o assets que vamos a utilizar en nuestro proyecto como: fuentes de letras, imágenes, etc.
 
