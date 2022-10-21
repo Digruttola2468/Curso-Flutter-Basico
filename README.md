@@ -230,3 +230,24 @@ Algo que se debe tener en cuenta es que yaml es bastante estricto con la indenta
 
 Para aplicar la nueva tipografía a nuestro código bastará con incluir en el widget TextStyle, la propiedad fontFamily e indicar en ella el nombre de la fuente que hemos declarado en nuestro archivo de configuración.
 
+## Widgets Decorados
+
+Al hablar de widgets decorados nos referimos básicamente a un widget de tipo Container(), al que podemos darle características visuales extendidas, o de decoración. Esto lo podemos conseguir al asignar a la propiedad decoration de dicho Container(), otro widget especial llamado BoxDecoration().
+
+Algunas de las propiedades de decoración disponibles con este widget son:
+
+- color: para asignar el color de relleno de fondo del contenedor.
+- gradient: para definir un gradiente de colores de relleno.
+- border: para asignar un borde.
+- borderRadius: para indicar que los bordes del contenedor serán redondeados.
+
+Puedes consultar la documentación oficial de Flutter para ver la lista completa de propiedades disponibles.
+
+La funcion [FractionalOffset]() es indicar un fragmento de la pantalla en base a su dirección tomando en cuenta dos puntos de un plano cartesiano (dx,dy), de esta forma:
+
+FractionalOffset(1.0, 0.0) representa la parte superior derecha de la pantalla.
+
+FractionalOffset(0.0, 1.0) representa la parteinferior izquierda de la pantalla
+
+FractionalOffset(0.5, 2.0) representa un fragmento/punto en la mitad de la pantalla con respecto al eje X, y por debajo de del contenedor padre.
+

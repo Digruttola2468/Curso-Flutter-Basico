@@ -13,7 +13,7 @@ class DescripcionPlace extends StatelessWidget {
 
     final start_half = Container(
       margin: const EdgeInsets.only(
-        top: 323.0,
+        top: 353.0,
         right: 3.0
       ),
       child: const Icon(
@@ -35,7 +35,7 @@ class DescripcionPlace extends StatelessWidget {
 
     final start = Container(
       margin: const EdgeInsets.only(
-        top: 223.0,
+        top: 253.0,
         right: 3.0
       ),
       child: const Icon(
@@ -48,7 +48,7 @@ class DescripcionPlace extends StatelessWidget {
       children: [
         Container(
           margin: const EdgeInsets.only(
-            top: 220.0,
+            top: 250.0,
             left: 20.0,
             right: 20.0
           ),
